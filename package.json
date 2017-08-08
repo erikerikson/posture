@@ -8,8 +8,8 @@
   "scripts": {
     "build": "standard --fix && babel -d ./lib ./src -s && babel index.js -o cli.js",
     "build-nolint": "babel -d ./lib ./src -s && babel index.js -o cli.js",
-    "test": "standard --fix && jest --watch",
-    "test-nolint": "jest --watch"
+    "test": "standard --fix && jest",
+    "test-watch": "jest --watch"
   },
   "repository": "Nordstrom/posture",
   "devDependencies": {
