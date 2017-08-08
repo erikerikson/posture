@@ -8,7 +8,6 @@ export const error = (text) => {
   a data model representing the fields to lint and what to lint them for
 
   the 'error' severity is breaking to the Swager Spec Definition
-  any violations in the file will cause a registration to fail
 
   the first segment is the requirement, length or (not) missing
   the second segment is the path to the field with the requirement

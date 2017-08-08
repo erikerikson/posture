@@ -1,8 +1,8 @@
-# Posture, an opinionated Swagger linter
-> optimize your swagger documentation
+# Posture - an opinionated Swagger linter
+optimize your swagger documentation
 
 ## Why
-> Swagger is very flexible - you can a do as little or as much as you want. That's great for lowering the bar to adoption, however we all want to provide first-class experiences to our users, otherwise what's th epoint of building an API in the first place. Posture is here to help you stand up a little straighter and help. you Swagger with more confidence.
+Swagger is very flexible - you can a do as little or as much as you want. That's great for lowering the bar to adoption, however we all want to provide first-class experiences to our users, otherwise what's the point of building an API in the first place. Posture is here to help you stand up a little straighter and let you Swagger confidence.
 - Posture can stand alone as a one time tool, integrate into your CI/CD pipeline or help you audit your existing API documentation
 - Posture provides escalating warnings: breaking errors, important features and useful optimizations
 

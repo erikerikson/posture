@@ -8,7 +8,6 @@ const optimize = (text) => {
   a data model representing the fields to lint and what to lint them for
 
   the 'optimizations' severity are compatibility-optimizations
-  any violations reduce the user experience in the Documentation Portal
 
   the first segment is the requirement, length or (not) missing
   the second segment is the path to the field with the requirement

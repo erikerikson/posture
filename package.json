@@ -6,8 +6,8 @@
   "author": "Patrick Dent",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "standard --fix && babel -d ./lib ./src -s && babel index.js -o cli.js",
-    "build-nolint": "babel -d ./lib ./src -s && babel index.js -o cli.js",
+    "build": "standard --fix && babel -d ./lib ./src -s",
+    "build-nolint": "babel -d ./lib ./src -s",
     "test": "standard --fix && jest",
     "test-watch": "jest --watch"
   },
@@ -36,6 +36,6 @@
     ]
   },
   "bin": {
-    "posture": "./cli.js"
+    "posture": "./lib/cli.js"
   }
 }

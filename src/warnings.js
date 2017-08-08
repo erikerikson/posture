@@ -7,8 +7,7 @@ const warn = (text) => {
 /**
   a data model representing the fields to lint and what to lint them for
 
-  the 'warning' severity are compatibility-optimizations
-  any violations reduce the user experience in the Documentation Portal
+  the 'warning' severity are usability issues, they aren't breaking, but they make your documentation harder to use
 
   the first segment is the requirement, length or (not) missing
   the second segment is the path to the field with the requirement

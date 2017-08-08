@@ -4,11 +4,11 @@ import program from 'commander'
 import fs from 'fs'
 import chalk from 'chalk'
 import _ from 'lodash'
-import lintObject from './lib/lint'
-import { getRequirementsArray, collectRequirements } from './lib/requirements'
-import { buildMessage } from './lib/messages'
-import messagesObject from './lib/messagesObject'
-import mapLines from './lib/mapLines'
+import lintObject from './lint'
+import { getRequirementsArray, collectRequirements } from './requirements'
+import { buildMessage } from './messages'
+import messagesObject from './messagesObject'
+import mapLines from './mapLines'
 
 program
     .version('0.1.0')
