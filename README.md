@@ -1,1 +1,2 @@
-# posture
+# Posture, an opinionated Swagger linter
+
