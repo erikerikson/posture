@@ -1,6 +1,6 @@
 {
   "name": "posture",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "an opinionated linter for swagger",
   "main": "index.js",
   "author": "Patrick Dent",
