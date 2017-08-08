@@ -25,8 +25,42 @@ it('builds requirements from common Operations', () => {
 it('builds requirements from Definiton Keys and Property Keys', () => {
   var reqArr = getRequirementsArray({ warnings }, exampleSwagger)
   var expected = {
-    'propArray': [ 'field' ],
-    'propOne': [ 'field' ]
+    'blog': [
+      'field'
+    ],
+    'blogs': [
+      'field'
+    ],
+    'blogsummary': [
+      'field'
+    ],
+    'email': [
+      'field'
+    ],
+    'errorcode': [
+      'field'
+    ],
+    'message': [
+      'field'
+    ],
+    'page': [
+      'field'
+    ],
+    'pagesize': [
+      'field'
+    ],
+    'title': [
+      'field'
+    ],
+    'totalcount': [
+      'field'
+    ],
+    'userid': [
+      'field'
+    ],
+    'usernickname': [
+      'field'
+    ]
   }
 
   expect(reqArr[0].requirements['definiton-error']).toEqual(expected)
