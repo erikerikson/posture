@@ -7,7 +7,6 @@ import _ from 'lodash'
 import lintObject from './lint'
 import { getRequirementsArray, collectRequirements } from './requirements'
 import { buildMessage } from './messages'
-import messagesObject from './messagesObject'
 import mapLines from './mapLines'
 
 program
@@ -26,7 +25,7 @@ try {
   if (_.keys(results).length) {
     for (let severity in results) {
       results[severity].forEach((result) => {
-        var message = buildMessage(severity, result, lineMap, messagesObject)
+        var message = buildMessage(severity, result, lineMap, collectRequirements())
         if (message) { console.log(message) }
       })
     }
