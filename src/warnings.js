@@ -18,12 +18,10 @@ const warn = (text) => {
 
 const warnings = {
   'length-25-75_root_paths_PATH_OPERATION_summary': (line) => warn(`line ${line} - Summary field for '$OPERATION $PATH' should be a short name - about 50 characters. eg: Get user by name`),
-  'missing_root_tags': (line) => warn(`line ${line} - Include an array of tag obects to help users discover your service.`),
+  'length-25-10000_root_paths_PATH_OPERATION_summary': (line) => warn(`line ${line} - Description field for '$OPERATION $PATH' should be more descriptive.`),
   'missing_root_info_description': (line) => warn(`line ${line} - Include a description of your service to let users know if they've found what they're looking for.`),
   'missing_root_paths_PATH_OPERATION_summary': (line) => warn(`line ${line} - Include the 'summary' field for '$OPERATION $PATH'. This should be a short (~50 char) name for this operation and is used for navigation. eg: Get user by name`),
-  'missing_root_paths_PATH_OPERATION_description': (line) => warn(`line ${line} - Include a 'description' for '$OPERATION $PATH'. This is an in depth field where you can explain why users would want to use this operation.`),
-  'missing_root_paths_PATH_OPERATION_parameters_default': (line) => warn(`line ${line} - Include a working example in the 'default' or 'x-example' field of the $SCHEMA object for $OPERATION $PATH.`),
-  'missing_root_definitions_DEFKEY_properties_PROPKEY_default': (line) => warn(`line ${line} - Include a working example in the 'default' or 'x-example' field of the $PROPKEY object for the $DEFKEY definition.`)
+  'missing_root_paths_PATH_OPERATION_description': (line) => warn(`line ${line} - Include a 'description' for '$OPERATION $PATH'. This is an in depth field where you can explain why users would want to use this operation.`)
 }
 
 export default warnings

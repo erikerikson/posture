@@ -1,6 +1,7 @@
 import _ from 'lodash'
 import errors from './errors'
 import warnings from './warnings'
+import optimizations from './optimizations'
 
 export const operations = ['get', 'put', 'post', 'delete', 'options', 'head', 'patch']
 export const propKeys = []
@@ -51,7 +52,7 @@ const buildObjectNavigationMap = (messageObject, swagger) => {
 }
 
 export const collectRequirements = () => {
-  return { errors, warnings }
+  return { errors, warnings, optimizations }
 }
 
 export const getRequirementsArray = (requirements, swagger) => {
