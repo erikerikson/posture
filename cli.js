@@ -29,8 +29,6 @@ var _messagesObject = require('./lib/messagesObject');
 
 var _messagesObject2 = _interopRequireDefault(_messagesObject);
 
-var _errors = require('./lib/errors');
-
 var _mapLines = require('./lib/mapLines');
 
 var _mapLines2 = _interopRequireDefault(_mapLines);
@@ -69,6 +67,5 @@ try {
     }
   })();
 } catch (err) {
-  console.log((0, _errors.error)('Malformed JSON file'));
   console.log(err);
 }

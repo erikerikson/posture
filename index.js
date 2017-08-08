@@ -8,7 +8,6 @@ import lintObject from './lib/lint'
 import { getRequirementsArray, collectRequirements } from './lib/requirements'
 import { buildMessage } from './lib/messages'
 import messagesObject from './lib/messagesObject'
-import { error } from './lib/errors'
 import mapLines from './lib/mapLines'
 
 program
@@ -35,6 +34,5 @@ try {
     console.log(`${chalk.bgGreen.white(' SUCCESS ')} ${chalk.green('Your documentation conforms to recommended practices.')}`)
   }
 } catch (err) {
-  console.log(error('Malformed JSON file'))
   console.log(err)
 }
