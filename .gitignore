@@ -1,7 +1,7 @@
-# dependencies
-/node_modules
+    # dependencies
+    /node_modules
 
-# production
-/lib
+    # production
+    /lib
 
-.DS_STORE
+    .DS_STORE
